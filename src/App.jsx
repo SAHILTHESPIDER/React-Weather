@@ -1,15 +1,16 @@
 import { useState } from 'react'
+import Weather from './Weather'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
       <div>
-        <h1>
-          hell
-        </h1>
+      
+          <Weather />
+        
       </div>
     </>
   )
